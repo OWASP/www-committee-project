@@ -3,6 +3,7 @@ layout: col-sidebar
 title: OWASP Project Committee
 tags: project-committee
 pitch: Help all OWASP Projects to succeed
+altfooter: true
 ---
 
 ## Mission Statement
