@@ -9,3 +9,6 @@
 * [Jim Manico](mailto:jim.manico@owasp.org)
 * [Steve Springett](mailto:steve.springett@owasp.org)
 
+**Staff Contact**
+* [Harold Blankenship](mailto:harold.blankenship@owasp.com)
+
