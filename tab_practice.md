@@ -1,5 +1,6 @@
 ---
-title: Good Practice
+title: Practice
+displaytext: Good Practice
 layout:  null
 altfooter: true
 tab: true
