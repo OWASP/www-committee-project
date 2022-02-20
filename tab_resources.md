@@ -93,6 +93,7 @@ Please use these icons on your OWASP project websites to support a common look &
 
 [![OWASP Incubator](https://img.shields.io/badge/owasp-incubator%20project-blue.svg)](https://www.owasp.org/projects)
 [![OWASP Lab](https://img.shields.io/badge/owasp-lab%20project-f7b73c.svg)](https://www.owasp.org/projects)
+[![OWASP Production](https://img.shields.io/badge/owasp-production%20project-800080.svg)](https://www.owasp.org/projects)
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-38a047.svg)](https://www.owasp.org/projects)
 
 ### Project Type Icons
