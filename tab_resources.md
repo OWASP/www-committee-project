@@ -36,19 +36,19 @@ Please use these icons on your OWASP project websites to support a common look &
 
 <p>
     <span class="fa-stack fa-2x">
-        <i class="fas fa-circle fa-stack-2x" style="color:#FFA500"></i>
+        <i class="fas fa-circle fa-stack-2x" style="color:#f7b73c"></i>
         <i class="fas fa-flask fa-stack-1x fa-inverse"></i>
     </span>
     <span class="fa-stack fa-1x">
-        <i class="fas fa-circle fa-stack-2x" style="color:#FFA500"></i>
+        <i class="fas fa-circle fa-stack-2x" style="color:#f7b73c"></i>
         <i class="fas fa-flask fa-stack-1x fa-inverse"></i>
     </span>
 </p>
 <p>
-    <i class="fas fa-flask fa-4x" style="color:#FFA500"></i>
-    <i class="fas fa-flask fa-3x" style="color:#FFA500"></i>
-    <i class="fas fa-flask fa-2x" style="color:#FFA500"></i>
-    <i class="fas fa-flask fa-1x" style="color:#FFA500"></i>
+    <i class="fas fa-flask fa-4x" style="color:#f7b73c"></i>
+    <i class="fas fa-flask fa-3x" style="color:#f7b73c"></i>
+    <i class="fas fa-flask fa-2x" style="color:#f7b73c"></i>
+    <i class="fas fa-flask fa-1x" style="color:#f7b73c"></i>
 </p>
 
 #### Production
@@ -74,24 +74,24 @@ Please use these icons on your OWASP project websites to support a common look &
 
 <p>
     <span class="fa-stack fa-2x">
-        <i class="fas fa-circle fa-stack-2x" style="color:#2ADA08"></i>
+        <i class="fas fa-circle fa-stack-2x" style="color:#38a047"></i>
         <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
     </span>
     <span class="fa-stack fa-1x">
-        <i class="fas fa-circle fa-stack-2x" style="color:#2ADA08"></i>
+        <i class="fas fa-circle fa-stack-2x" style="color:#38a047"></i>
         <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
     </span>
 </p>
 <p>
-    <i class="fas fa-flag fa-4x" style="color:#2ADA08"></i>
-    <i class="fas fa-flag fa-3x" style="color:#2ADA08"></i>
-    <i class="fas fa-flag fa-2x" style="color:#2ADA08"></i>
-    <i class="fas fa-flag fa-1x" style="color:#2ADA08"></i>
+    <i class="fas fa-flag fa-4x" style="color:#38a047"></i>
+    <i class="fas fa-flag fa-3x" style="color:#38a047"></i>
+    <i class="fas fa-flag fa-2x" style="color:#38a047"></i>
+    <i class="fas fa-flag fa-1x" style="color:#38a047"></i>
 </p>
 
 ### Project Maturity Level Badges
 
-[![OWASP Incubator](https://img.shields.io/badge/owasp-incubator%20project-blue.svg)](https://www.owasp.org/projects)
+[![OWASP Incubator](https://img.shields.io/badge/owasp-incubator%20project-53AAE5.svg)](https://www.owasp.org/projects)
 [![OWASP Lab](https://img.shields.io/badge/owasp-lab%20project-f7b73c.svg)](https://www.owasp.org/projects)
 [![OWASP Production](https://img.shields.io/badge/owasp-production%20project-800080.svg)](https://www.owasp.org/projects)
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-38a047.svg)](https://www.owasp.org/projects)
