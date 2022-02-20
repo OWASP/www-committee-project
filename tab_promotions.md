@@ -24,6 +24,10 @@ lifecycle defined in the
         <i class="fas fa-flask fa-stack-1x fa-inverse"></i>
     </span>
     <span class="fa-stack fa-2x">
+        <i class="fas fa-circle fa-stack-2x" style="color:#800080"></i>
+        <i class="fas fa-cog fa-stack-1x fa-inverse"></i>
+    </span>
+    <span class="fa-stack fa-2x">
         <i class="fas fa-circle fa-stack-2x" style="color:#2ADA08"></i>
         <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
     </span>
@@ -53,6 +57,17 @@ Project Committee member and one volunteer project leader or second
 Project Committee member. The final decision is with the Project
 Committee.
 
+<p>
+    <i class="fas fa-flask fa-2x" style="color:#FFA500"></i>
+    <i class="fas fa-arrow-right fa-2x"></i>
+    <i class="fas fa-cog fa-2x" style="color:#800080"></i>
+</p>
+
+Promotions **from Lab to Production** level are reviewed by at least one
+Project Committee member and one volunteer project leader or second
+Project Committee member. The final decision is with the Project
+Committee.
+
 #### Strategic Promotion
 
 <p>
@@ -62,8 +77,8 @@ Committee.
 </p>
 
 Please note that promotions **to Flagship** level are not a maturity
-progression from Lab but _reserved for projects of strategic importance
-to OWASP_ and its mission. Requests to promotion from Lab to flagship
+progression from Production but _reserved for projects of strategic importance
+to OWASP_ and its mission. Requests to promotion to flagship
 will be evaluated by the Project Committee and a recommendation brought
 to the OWASP Global Board. The final decision is with the Board.
 
