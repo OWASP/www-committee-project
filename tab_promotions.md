@@ -14,13 +14,20 @@ Process** which allows projects to progress through the maturity
 lifecycle defined in the
 [Project Leader Handbook](https://owasp.org/www-pdf-archive/PROJECT_LEADER-HANDBOOK_2014.pdf).
 
-<img
-src='https://owasp.org/assets/images/common/owasp_level_incubator.svg'
-width='40px' alt='Incubator'> <img
-src='https://owasp.org/assets/images/common/owasp_level_labs.svg'
-width='40px' alt='Lab'> <img
-src='https://owasp.org/assets/images/common/owasp_level_flagship.svg'
-width='40px' alt='Flagship'>
+<p>
+    <span class="fa-stack fa-2x">
+        <i class="fas fa-circle fa-stack-2x" style="color:#53AAE5"></i>
+        <i class="fas fa-egg fa-stack-1x fa-inverse"></i>
+    </span>
+    <span class="fa-stack fa-2x">
+        <i class="fas fa-circle fa-stack-2x" style="color:#FFA500"></i>
+        <i class="fas fa-flask fa-stack-1x fa-inverse"></i>
+    </span>
+    <span class="fa-stack fa-2x">
+        <i class="fas fa-circle fa-stack-2x" style="color:#2ADA08"></i>
+        <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
+    </span>
+</p>
 
 ### Requesting Promotion
 
@@ -33,26 +40,26 @@ Project Committee email or Slack channel!
 
 ### Promotion Process
 
-<img
-src='https://owasp.org/assets/images/common/owasp_level_incubator.svg'
-width='25px' alt='Incubator'> <img
-src='https://owasp.org/assets/images/common/owasp_level_labs.svg'
-width='40px' alt='Lab'> <img
-src='https://owasp.org/assets/images/common/owasp_level_flagship.svg'
-width='25px' alt='Flagship'>
+#### Maturity Promotion
+
+<p>
+    <i class="fas fa-egg fa-2x" style="color:#53AAE5"></i>
+    <i class="fas fa-arrow-right fa-2x"></i>
+    <i class="fas fa-flask fa-2x" style="color:#FFA500"></i>
+</p>
 
 Promotions **from Incubator to Lab** level are reviewed by at least one
 Project Committee member and one volunteer project leader or second
 Project Committee member. The final decision is with the Project
 Committee.
 
-<img
-src='https://owasp.org/assets/images/common/owasp_level_incubator.svg'
-width='25px' alt='Incubator'> <img
-src='https://owasp.org/assets/images/common/owasp_level_labs.svg'
-width='25px' alt='Lab'> <img
-src='https://owasp.org/assets/images/common/owasp_level_flagship.svg'
-width='40px' alt='Flagship'>
+#### Strategic Promotion
+
+<p>
+    <i class="fas fa-award fa-2x"></i>
+    <i class="fas fa-arrow-right fa-2x"></i>
+    <i class="fas fa-flag fa-2x" style="color:#2ADA08"></i>
+</p>
 
 Please note that promotions **to Flagship** level are not a maturity
 progression from Lab but _reserved for projects of strategic importance
