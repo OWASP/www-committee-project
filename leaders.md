@@ -7,6 +7,7 @@
 * [Simon Bennetts](mailto:psiinon@gmail.com)
 * [Jim Manico](mailto:jim.manico@owasp.org)
 * [Steve Springett](mailto:steve.springett@owasp.org)
+* [Jeff Foley](mailto:jeff.foley@owasp.org)
 
 **Staff Contact**
 * [Harold Blankenship](mailto:harold.blankenship@owasp.com)
