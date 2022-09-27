@@ -56,18 +56,18 @@ Please use these icons on your OWASP project websites to support a common look &
 <p>
     <span class="fa-stack fa-2x">
         <i class="fas fa-circle fa-stack-2x" style="color:#800080"></i>
-        <i class="fas fa-cog fa-stack-1x fa-inverse"></i>
+        <i class="fas fa-city fa-stack-1x fa-inverse"></i>
     </span>
     <span class="fa-stack fa-1x">
         <i class="fas fa-circle fa-stack-2x" style="color:#800080"></i>
-        <i class="fas fa-cog fa-stack-1x fa-inverse"></i>
+        <i class="fas fa-city fa-stack-1x fa-inverse"></i>
     </span>
 </p>
 <p>
-    <i class="fas fa-cog fa-4x" style="color:#800080"></i>
-    <i class="fas fa-cog fa-3x" style="color:#800080"></i>
-    <i class="fas fa-cog fa-2x" style="color:#800080"></i>
-    <i class="fas fa-cog fa-1x" style="color:#800080"></i>
+    <i class="fas fa-city fa-4x" style="color:#800080"></i>
+    <i class="fas fa-city fa-3x" style="color:#800080"></i>
+    <i class="fas fa-city fa-2x" style="color:#800080"></i>
+    <i class="fas fa-city fa-1x" style="color:#800080"></i>
 </p>
 
 #### Flagship
