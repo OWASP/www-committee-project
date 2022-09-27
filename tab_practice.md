@@ -8,10 +8,6 @@ order: 3
 tags: project-committee
 ---
 
-<p style="border: 2px solid #E64A19; border-radius: 5px; font-size: 0.7em; padding: 2px;">
-This section is currently in <strong>DRAFT</strong> status! This section is currently in <strong>DRAFT</strong> status! This section is currently in <strong>DRAFT</strong> status!
-</p>
-
 ## Vendor Neutrality
 
 Good OWASP Projects...
