@@ -25,7 +25,7 @@ lifecycle defined in the
     </span>
     <span class="fa-stack fa-2x">
         <i class="fas fa-circle fa-stack-2x" style="color:#800080"></i>
-        <i class="fas fa-cog fa-stack-1x fa-inverse"></i>
+        <i class="fas fa-city fa-stack-1x fa-inverse"></i>
     </span>
     <span class="fa-stack fa-2x">
         <i class="fas fa-circle fa-stack-2x" style="color:#2ADA08"></i>
@@ -44,7 +44,7 @@ Project Committee email or Slack channel!
 
 ### Maturity Levels
 
-| Requirement                                                                          | <i class="fas fa-egg fa-2x" style="color:#53AAE5"></i>Incubator   | <i class="fas fa-flask fa-2x" style="color:#FFA500"></i>Lab                               | <i class="fas fa-cog fa-2x" style="color:#800080"></i>Production                                                                                                                                       |
+| Requirement                                                                          | <i class="fas fa-egg fa-2x" style="color:#53AAE5"></i>Incubator   | <i class="fas fa-flask fa-2x" style="color:#FFA500"></i>Lab                               | <i class="fas fa-city fa-2x" style="color:#800080"></i>Production                                                                                                                                      |
 |:-------------------------------------------------------------------------------------|:------------------------------------------------------------------|:------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Activity                                                                             | -                                                                 | ≥1 major release                                                                          | ≥1 major release per year and regular minor/patch releases                                                                                                                                             |
 | Documentation                                                                        | Project website exists and describes project's intent and purpose | Reasonable instructions for installation, usage or implementation exist                   | Fully scoped usage documentation, Contribution guidelines etc. exist                                                                                                                                   | 
@@ -73,7 +73,7 @@ Committee.
 <p>
     <i class="fas fa-flask fa-2x" style="color:#FFA500"></i>
     <i class="fas fa-arrow-right fa-2x"></i>
-    <i class="fas fa-cog fa-2x" style="color:#800080"></i>
+    <i class="fas fa-city fa-2x" style="color:#800080"></i>
 </p>
 
 Promotions **from Lab to Production** level are reviewed by at least one
