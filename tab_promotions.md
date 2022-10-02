@@ -28,7 +28,7 @@ lifecycle defined in the
         <i class="fas fa-city fa-stack-1x fa-inverse"></i>
     </span>
     <span class="fa-stack fa-2x">
-        <i class="fas fa-circle fa-stack-2x" style="color:#2ADA08"></i>
+        <i class="fas fa-circle fa-stack-2x" style="color:#38a047"></i>
         <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
     </span>
 </p>
@@ -86,7 +86,7 @@ Committee.
 <p>
     <i class="fas fa-award fa-2x"></i>
     <i class="fas fa-arrow-right fa-2x"></i>
-    <i class="fas fa-flag fa-2x" style="color:#2ADA08"></i>
+    <i class="fas fa-flag fa-2x" style="color:#38a047"></i>
 </p>
 
 Please note that promotions **to Flagship** level are not a maturity
