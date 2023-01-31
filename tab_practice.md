@@ -26,7 +26,7 @@ Good OWASP Projects...
 
 ## Project Naming
 
-Good OWASP Projects use appropriate naming which is consistent with the existing portfolio.
+Good OWASP Projects use appropriate and clear naming. There are certain "reserved names" which should only be used when the project is structured consistently with the existing portfolio.
 
 For example:
 
