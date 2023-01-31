@@ -24,6 +24,17 @@ Good OWASP Projects...
 
 1. ...have a channel on the official OWASP Slack optimally named `#project-<name>` for easy filtering.
 
+## Project Naming
+
+Good OWASP Projects use appropriate naming which is consistent with the existing portfolio.
+
+For example:
+
+* A "**Top 10**" project will be designed to bring awareness to a brand-new or less well-known area and should be based on clear data or evidence. For example, the [OWASP Top 10 Risks project](https://owasp.org/www-project-top-ten/).
+* A "**Maturity Model**" project defines a set of activities and processes and includes textual descriptions for ascending maturity levels of an organization for each activities/processes. For example, the [OWASP SAMM project](https://owasp.org/www-project-samm/) project.
+* A "**Verification Standard**" project defines a set of standard and clear requirements expected for an application or process in order for it to be considered secure. Different requirements may be assigned to different levels based on the level of security required. For example, the [OWASP Application Security Verification Standard project](https://owasp.org/asvs)
+* A "**Testing Guide**" project defines a set of steps or tests to be carried out in order to check the security of a particular type of application or process. For example, the [OWASP Mobile Application Security Testing Guide](https://owasp.org/www-project-mobile-app-security/#owasp-mastg).
+
 ## GitHub
 
 Good OWASP Projects...
