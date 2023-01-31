@@ -18,6 +18,15 @@ Good OWASP Projects...
 4. ...have their own social media presence (e.g. Twitter handle, YouTube channel) and do not "piggy-back" on ones used for commercial purposes.
 5. ...have multiple Project Leaders who are not all employed by the same company.
 
+## Innovation and Purpose
+
+Good OWASP Projects...
+
+1. ...add something new and important to the OWASP ecosystem.
+2. ...provide support for a clearly defined problem or perform a clearly defined task.
+3. ...compliment but do not duplicate existing OWASP projects.
+4. ...provide guidance based on recognised and respected sources be that OWASP or others.
+
 ## Community Support
 
 Good OWASP Projects...
