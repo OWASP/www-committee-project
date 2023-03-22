@@ -1,7 +1,8 @@
-### Leaders
+### Committee Officers
 
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - Chair
 * [Kevin Johnson](mailto:kevin.johnson@owasp.org) - Vice Chair
+* [Donnie Brown](mailto:donnie.brown@owasp.org) - Secretary
 
 **Committee Members**
 * [Simon Bennetts](mailto:psiinon@gmail.com)
