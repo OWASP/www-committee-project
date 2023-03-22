@@ -8,6 +8,13 @@ order: 3
 tags: project-committee
 ---
 
+## Uniqueness
+
+Good OWASP Projects...
+
+1. ...are submitted as Incubator projects after checking for (and considering to contribute to) a [possibily existing similar OWASP project](https://owasp.org/projects/) instead 
+2. ...have a unique selling point (USP) or vision that sets them apart from [possibly existing similar OWASP projects](https://owasp.org/projects/)
+
 ## Vendor Neutrality
 
 Good OWASP Projects...
