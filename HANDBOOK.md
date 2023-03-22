@@ -787,6 +787,8 @@ implementing it thoroughly in 2014.
 Here you will find a list of OWASP recommended licenses that you can choose from for your project. Choosing
 one of the licenses below is not mandatory. We only ask that you choose a community friendly license.
 
+![alt text](license-matrix.png "Optional title")
+
 
 **8.3 OWASP CODE OF ETHICS 2013**
 
