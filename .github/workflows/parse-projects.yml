@@ -2,7 +2,7 @@ name: Fetch Data
 
 on:
   push:
-    
+    branches: [main]
 
 jobs:
   fetch-data:
@@ -14,8 +14,8 @@ jobs:
       - name: Get repository names from JSON file
         id: get-repo-names
         run: |
-          curl -sSL -o repos.json https://example.com/repos.json
-          echo "::set-output name=repo-names::$(jq -r '.[].name' repos.json)"
+          curl -sSL -o repos.json https://raw.githubusercontent.com/OWASP/owasp.github.io/main/_data/projects.json
+          echo "::set-output name=repo-names::$(jq -r '.[].name' repos.json | paste -sd ',' -)"
 
       - name: Fetch data from GitHub GraphQL API
         uses: JasonEtco/query-github-graphql@v1.x
@@ -49,6 +49,7 @@ jobs:
           git add data.json
           git commit -m "Update data"
           git push origin main
+        if: always()
     strategy:
       matrix:
-        repo-name: ${{ steps.get-repo-names.outputs.repo-names }}
+        repo-name: ${{ split(steps.get-repo-names.outputs.repo-names, ',') }}
