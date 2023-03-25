@@ -1,6 +1,7 @@
 name: Fetch Repository Status
 
 on:
+  push:
   workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # You can adjust the schedule as needed. This one runs daily at midnight.
