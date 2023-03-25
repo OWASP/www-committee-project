@@ -6,11 +6,13 @@ response = requests.get(projects_url)
 projects = response.json()
 
 repo_statuses = []
+print('processing projects from json')
 
 for project in projects:
     code_urls = project.get('codeurl', '').split()
     for code_url in code_urls:
         if 'github.com' in code_url:
+            print('code_url', code_url)
             repo_name = '/'.join(code_url.split('/')[-2:])
             try:
                 repo_api_url = f'https://api.github.com/repos/{repo_name}'
@@ -34,6 +36,8 @@ for project in projects:
                 })
             except Exception as e:
                 print(f"Error fetching status for {code_url}: {e}")
+
+print('writing repo_status.json')
 
 with open('repo_status.json', 'w') as outfile:
     json.dump(repo_statuses, outfile, indent=2)
