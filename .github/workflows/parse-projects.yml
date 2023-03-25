@@ -2,7 +2,6 @@ name: Fetch Data
 
 on:
   push:
-    branches: [main]
 
 jobs:
   fetch-data:
