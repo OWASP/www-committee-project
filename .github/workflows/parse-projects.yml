@@ -16,7 +16,7 @@ jobs:
         run: |
           curl -sSL -o repos.json https://raw.githubusercontent.com/OWASP/owasp.github.io/main/_data/projects.json
           echo "::set-output name=repo-names::$(jq -r '.[].name' repos.json)"
-
+        
       - name: Fetch data from GitHub GraphQL API
         uses: JasonEtco/query-github-graphql@v1.x
         with:
@@ -35,9 +35,11 @@ jobs:
               }
             }
           token: ${{ secrets.ACCESS_TOKEN }}
-          name: ${{ fromJSON(steps.get-repo-names.outputs.repo-names)[matrix.repo-name] }}
+          name: ${{ fromJSON(outputs.get-repo-names)[$matrix.repo-name] }}
         id: data
-
+        env:
+          MATRIX_REPO_NAME: ${{ fromJSON(outputs.get-repo-names) }}
+        
       - name: Write data to JSON file
         run: |
           echo '${{ steps.data.outputs.data }}' >> data.json
@@ -50,7 +52,11 @@ jobs:
           git commit -m "Update data"
           git push origin main
         if: always()
+
+    outputs:
+      get-repo-names: ${{ steps.get-repo-names.outputs.repo-names }}
+
     strategy:
       matrix:
-        repo-name: ${{ join(fromJSON(steps.get-repo-names.outputs.repo-names), ',') }}
+        repo-name: ${{ join(fromJSON(outputs.get-repo-names), ',') }}
 
