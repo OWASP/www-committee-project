@@ -14,7 +14,7 @@ jobs:
         id: get-repo-names
         run: |
           curl -sSL -o repos.json https://raw.githubusercontent.com/OWASP/owasp.github.io/main/_data/projects.json
-          echo "::set-output name=repo-names::$(jq -r '.[].name' repos.json | paste -sd ',' -)"
+          echo "::set-output name=repo-names::$(jq -r '.[].name' repos.json)"
 
       - name: Fetch data from GitHub GraphQL API
         uses: JasonEtco/query-github-graphql@v1.x
@@ -34,7 +34,7 @@ jobs:
               }
             }
           token: ${{ secrets.ACCESS_TOKEN }}
-          name: ${{ matrix.repo-name }}
+          name: ${{ fromJSON(steps.get-repo-names.outputs.repo-names)[matrix.repo-name] }}
         id: data
 
       - name: Write data to JSON file
@@ -51,4 +51,4 @@ jobs:
         if: always()
     strategy:
       matrix:
-        repo-name: ${{ split(steps.get-repo-names.outputs.repo-names, ',') }}
+        repo-name: ${{ join(fromJSON(steps.get-repo-names.outputs.repo-names), ',') }}
