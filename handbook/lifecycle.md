@@ -65,6 +65,9 @@ In addition to these files, projects should also include:
 - CONTRIBUTING.md : helpful file indicating to users how to contribute to the project
 - README.md : a quick description that somewhat perusing the github repository (instead of the webpage) would see
 
+### Leadership
+Projects can add leaders (up to a maximum as defined in the [Project Policy]()) by editing the leaders.md file and adding a name with email address to the list. The person will be officially added, provided no formatting issues with the file, within 24 hours. Similarly, leaders can be changed or removed through editing the leaders.md file.
+
 ### Applying for Promotion
 When a project wishes to be promoted from one level to the next, the project leaders should review the information from the Project Committee on [Promotions](https://owasp.org/www-committee-project/#div-promotions). Be sure to consider all aspects related to the level **the project wishes to acquire**. When ready for promotion, use the form or method indicated on the Project Committee [Promotions](https://owasp.org/www-committee-project/#div-promotions) page.
 
