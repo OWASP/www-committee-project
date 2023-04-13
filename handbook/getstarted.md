@@ -28,9 +28,7 @@ OWASP projects are divided into the following major categories:
 * <i class="fas fa-file-alt fa-1x" style="color:#233e81;"></i> **Documentation**: These projects seek to communicate information or raise awareness about a topic in 
 application security. Note that documentation projects should focus on an online-first deliverable, where appropriate, but
 can take any media form (e.g. pring, CBT, videos, games, etc.).
-* <i class="fas fa-tools fa-1x" style="color:#233e81;"></i> **Tool**: Tool projects aim to create software that enables users to test, detect, protect, or educate 
-themselves using a facet of application security.
-* <i class="fas fa-file-code fa-1x" style="color:#233e81;"></i> **Code**: These projects provide libraries/frameworks that can be leveraged by developers to 
+* <i class="fas fa-file-code fa-1x" style="color:#233e81;"></i> **Code**: These projects provide tools, libraries, and frameworks that can be leveraged by developers to 
 enhance the security of their applications. 
 * **Other**: Some projects fall outside the above categories. Most are created to offer 
 OWASP operational support. 
