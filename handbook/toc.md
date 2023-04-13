@@ -31,6 +31,7 @@ permalink: /handbook/
 - [Expenses]({{site.baseurl}}/handbook/donations#expenses)
 
 ## [Resources]({{site.baseurl}}/handbook/resources)
+- [Good Practices]({{site.baseurl}}/handbook/resources#good-practices)
 - [Communication]({{site.baseurl}}/handbook/resources#communication)
 - [Cloud]({{site.baseurl}}/handbook/resources#cloud)
 - [Other]({{site.baseurl}}/handbook/resources#other)

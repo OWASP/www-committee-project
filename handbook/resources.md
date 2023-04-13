@@ -12,6 +12,10 @@ order: 5
 
 The following resources are available to projects, some based on level. This is not a comprehensive list and may change over time. Except where indicated, a project of any level has access to the resources mentioned. Further resources may be found at the [Project Committee Resources tab](https://owasp.org/www-committee-project/#div-resources).
 
+### Good Practices
+The project committee recommends that projects follow these common good practices:
+{% include good_practices.md %}
+
 ### Communication
 OWASP maintains a number of useful communication channels for projects. The following methods of communication are recommended ways to get information out to the community:
 - [Slack](https://owasp.org/slack/invite/) - specifically the #owasp-community channel though projects may create their own project-specific channels
