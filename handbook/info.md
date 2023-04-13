@@ -1,4 +1,4 @@
-[Back to Project Committee](/www-project-committee/)
+[Back to Project Committee](/www-committee-project/)
 
 ### [Project Handbook]({{site.baseurl}}/handbook/)
 
