@@ -6,6 +6,8 @@ pitch: Help all OWASP Projects to succeed
 altfooter: true
 ---
 
+<!-- rebuild 001 -->
+
 ## Mission Statement
 
 **To provide the support and guidance required by Projects to thrive and
