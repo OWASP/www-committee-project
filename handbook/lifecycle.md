@@ -12,7 +12,7 @@ order: 3
   
 ### Project Levels
 
-Projects are divided into 3 levels representing maturity of the project. The levels from lowest maturity to the highest level of maturity are:
+Projects are divided into 3 levels representing maturity of the project. The levels from lowest level of maturity to the highest level of maturity are:
 
 <span class="fa-stack fa-2x">
     <i class="fas fa-circle fa-stack-2x" style="color:#53AAE5"></i>
@@ -29,7 +29,7 @@ Projects that represent the experimental playground where projects are still bei
 </span>
 **Lab**
 
-Projects that are much farther along and just lack a bit of polish to get them production-ready. There may be errors or some minor instability but they tend to be reliable for most uses and have produced a deliverable of significant value.
+Projects that are much farther along and just lack a bit of polish to get them production-ready. There may be errors or some minor instability, but they tend to be reliable for most uses and have produced a deliverable of significant value.
 
 ---
 
@@ -49,7 +49,7 @@ Projects that can be considered production-ready with high reliability. Furtherm
 </span>
 **Flagship** 
 
-Flagship is **NOT a maturity level** but is, rather, an indication of the project's strategic important to the OWASP mission. Flagship projects are recommended for such by the Project Committee to the OWASP Board of Directors. 
+Flagship is **NOT a maturity level** but is, rather, an indication of the project's strategic importance to the OWASP mission. Flagship projects are recommended for such by the Project Committee to the OWASP Board of Directors. 
 
 ### Setting up the Initial Repository
 Once a new project has been accepted, a repository will be created for the project. This repository is the **webpage** repository and will be the initial page visitors will see when browsing the project. The initial repository will provide a set of files that need to be updated with the relevant project information. These files include:
@@ -58,12 +58,12 @@ Once a new project has been accepted, a repository will be created for the proje
 - leaders.md
 - tab_example.md
 
-The contents of these files and explanations to what they affect as well as information on local editing of these files can be found at [Website Migration Information and Tutoral](https://owasp.org/migration/)
+The contents of these files and explanations to what they affect as well as information on local editing of these files can be found at [Website Migration Information and Tutorial](https://owasp.org/migration/)
 
 In addition to these files, projects should also include:
 - LICENSE.md : indicating the license under which the project operates
 - CONTRIBUTING.md : helpful file indicating to users how to contribute to the project
-- README.md : a quick description that somewhat perusing the github repository (instead of the webpage) would see
+- README.md : a quick description that someone perusing the github repository (instead of the webpage) would see
 
 ### Leadership
 Projects can add leaders (up to a maximum as defined in the [Project Policy](https://owasp.org/www-policy/operational/projects) by editing the leaders.md file and adding a name with email address to the list. The person will be officially added, provided no formatting issues with the file, within 24 hours. Similarly, leaders can be changed or removed through editing the leaders.md file.
