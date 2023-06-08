@@ -11,9 +11,9 @@ order: 4
 {% include draft.md %}
 
 ### Donations
-Projects are encouraged to seek donations from third party vendors, members, and the application security community. Donaters should be directed to the webpage of the project. When a donater clicks the Donate button from the project webpage, the donation will go to the OWASP project budget and it will be attributed to the project. For more information on donations, see the [Donations Policy](https://owasp.org/www-policy/operational/donations).
+Projects are encouraged to seek donations from third party vendors, members, and the application security community. Donors should be directed to the webpage of the project. When a donor clicks the Donate button from the project webpage, the donation will go to the OWASP project budget and it will be attributed to the project. For more information on donations, see the [Donations Policy](https://owasp.org/www-policy/operational/donations).
 
-You can also send a donation link through email or social media. The link will take the form of https://owasp.org/donate/?reponame=www-project-webpagen&title=OWASP+Project+Title.
+You can also send a donation link through email or social media. The link will take the form of: https://owasp.org/donate/?reponame=www-project-webpagen&title=OWASP+Project+Title.
 For the OWASP Top Ten Project that would be:
 https://owasp.org/donate/?reponame=www-project-top-ten&title=OWASP+Top+Ten
 
