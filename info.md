@@ -9,5 +9,6 @@ Slack Channels
 [#project-committee-github](https://owasp.slack.com/archives/C0506NPJ2EM)  
 [#project-new-projects](https://owasp.slack.com/archives/C052TF4AA84)  
 [#funding](https://owasp.slack.com/archives/C05D3PYPMB3)  
-  
+
+[Discussion Board](https://github.com/OWASP/www-committee-project/discussions)
 
