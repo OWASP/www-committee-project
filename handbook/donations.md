@@ -28,3 +28,4 @@ Projects at the Production level or which have been designated Flagship may appl
 
 ### Expenses
 Projects will, from time to time, have expenses for which they may request reimbursement. Expenses for projects should always strive to be pre-approved through submitting a [Project Funding Grant Request or Pre-approval ticket](https://owasporg.atlassian.net/servicedesk/customer/portal/4/group/14/create/74). For more information on expenses and what is and is not allowed, see the [Expense Policy](https://owasp.org/www-policy/operational/expense-reimbursement.html#fair-and-reasonable-expenses).
+

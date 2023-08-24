@@ -29,7 +29,10 @@ application security. Note that documentation projects should focus on an online
 can take any media form (e.g. pring, CBT, videos, games, etc.).
 * <i class="fas fa-file-code fa-1x" style="color:#233e81;"></i> **Code**: These projects provide tools, libraries, and frameworks that can be leveraged by developers to 
 enhance the security of their applications. 
-* **Other**: Some projects fall outside the above categories. Most are created to offer 
-OWASP operational support. 
+* **Other**: Some projects fall outside the above categories. Most are created to offer OWASP operational support. 
 
 {% include create_a_project.md %}
+
+### Leader Agreement
+
+{% include leader_agreement.md %} 

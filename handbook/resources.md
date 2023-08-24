@@ -39,3 +39,4 @@ OWASP Foundation has services available through:
 - Project Summit - From time to time, OWASP will invite projects to a special summit where project members can get together and work on their project without distraction. Watch for announcements in email and on Slack.
 - [StreamYard](https://streamyard.com) - OWASP is experimenting with StreamYard; though this is typically a chapter resource, projects are not prohibited from requesting an account through [Contact Us].(https://contact.owasp.org/)
 - [Contact Us](https://contact.owasp.org/) - Not seeing something here or have an idea? Submit it via the contact us JIRA service desk.
+- [Legal Review](https://contact.owasp.org/) - Legal review is also available for projects, based on level and need.
