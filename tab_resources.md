@@ -9,11 +9,9 @@ tags: project-committee
 
 ## Resources
 
-{% include support_for_projects.md %}
+Please use these icons on your OWASP project websites to support a common look & feel.
 
 ### Project Maturity Level Icons
-
-Please use these icons on your OWASP project websites to support a common look & feel.
 
 #### Incubator
 
