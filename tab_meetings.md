@@ -10,7 +10,7 @@ tags: project-committee
 ## Meetings
 
 The Project Committee meets on **the 4th Wednesday of every month at
-14:00 UTC** virtually via Google Meet. OWASP Members can access the
+15:00 UTC** virtually via Google Meet. OWASP Members can access the
 perpetual meeting minutes at
 <https://docs.google.com/document/d/12MaHpNFgDMFG5FHXpqJmCorv4R586bbF6MJqliZrg5k>.
 
