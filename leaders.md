@@ -1,4 +1,4 @@
-### Committee Officers
+### Leaders
 
 * [Bjoern Kimminich](mailto:bjoern.kimminich@owasp.org) - Chair
 * [Jeff Foley](mailto:jeff.foley@owasp.org) - Vice Chair
