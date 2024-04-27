@@ -10,5 +10,5 @@
 * [Jim Manico](mailto:jim.manico@owasp.org)
 
 **Staff Contact**
-* [Harold Blankenship](mailto:harold.blankenship@owasp.com)
+* [Starr Brown](mailto:starr.brown@owasp.com)
 
