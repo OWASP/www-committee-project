@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Matrix</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+</head>
+<body>
+	<table id="projects" class="display">
+		<thead>
+			<tr>
+				<th>Repo Name</th>
+				<th>Status</th>
+                <th>Date Released</th>
+				<th>Release Version</th>
+				<th>Last Commit</th>
+				<th>Committers</th>
+				<th>Stars</th>
+				<th>Top Language</th>
+				<th>License</th>
+				<th>Forks</th>
+				<th>PRs</th>
+				<th>Issues</th>
+			</tr>
+		</thead>
+	</table>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+	<script>
+
+function generateProjectData(projects) {
+            const projectsData = projects.map(({slug, status}) => {
+                const [owner, repo] = slug.split('/');
+                const repoUrl = `https://github.com/${slug}`;
+                if (status === "Lab") {
+                    status_img = `<img src='https://img.shields.io/badge/Lab-orange.svg' data-status="2">` 
+                } else if (status === "Incubator") {
+                    status_img = `<img src='https://img.shields.io/badge/Incubator-blue.svg' data-status="3">` 
+                } else if (status === "Flagship") {
+                    status_img = `<img src='https://img.shields.io/badge/Flagship-brightgreen.svg' data-status="1">` 
+                } else {
+                    status_img = `<img src='https://img.shields.io/badge/Lab-orange.svg' data-status="2">` 
+                }
+                return {
+                    "repo_name": `<a href="${repoUrl}" target="_blank">${repo}</a>`,
+                    "status": status_img,
+                    "last_commit": `<img src='https://img.shields.io/github/last-commit/${slug}'>`,
+                    "date_released": `<img src='https://img.shields.io/github/release-date/${slug}'>`,
+                    "release_version": `<img src='https://img.shields.io/github/v/release/${slug}'>`,
+                    "committers": `<img src='https://img.shields.io/github/contributors/${slug}'>`,
+                    "stars": `<img src='https://img.shields.io/github/stars/${slug}'>`,
+                    "top_language": `<img src='https://img.shields.io/github/languages/top/${slug}'>`,
+                    "license": `<img src='https://img.shields.io/github/license/${slug}'>`,
+                    "forks": `<img src='https://img.shields.io/github/forks/${slug}'>`,
+                    "prs": `<img src='https://img.shields.io/github/issues-pr/${slug}'>`,
+                    "issues": `<img src='https://img.shields.io/github/issues/${slug}'>`,
+                };
+            });
+            return projectsData;
+        }
+
+        const projects = [
+    {slug: "zaproxy/zaproxy", status: "Flagship"},
+    {slug: "juice-shop/juice-shop", status: "Flagship"},
+    {slug: "DefectDojo/django-DefectDojo", status: "Flagship"},
+    {slug: "adeyosemanputra/pygoat", status: "Incubator"},
+    {slug: "BBVA/patton", status: "Incubator"},
+    {slug: "blabla1337/skf-flask", status: "Flagship"},
+    {slug: "BlueVirtualNerds/G0rKing", status: "Incubator"},
+    {slug: "cncf/foundation", status: "Incubator"},
+    {slug: "codepulse/commits", status: "Lab"},
+    {slug: "commjoen/wrongsecrets", status: "Lab"},
+    {slug: "corazawaf/coraza", status: "Lab"},
+    {slug: "coreruleset/coreruleset", status: "Flagship"},
+    {slug: "DedSecInside/TorBoT", status: "Lab"},
+    {slug: "DependencyTrack/dependency-track", status: "Flagship"},
+    {slug: "ESAPI/esapi-java-legacy", status: "Lab"},
+    {slug: "find-sec-bugs/find-sec-bugs", status: "Lab"},
+    {slug: "gianlucafrei/Application-Gateway", status: "Incubator"},
+    {slug: "jeremylong/DependencyCheck", status: "Flagship"},
+    {slug: "jtmelton/appsensor", status: "Incubator"},
+    {slug: "lizfrenz/owasp-vuln-mngmnt", status: "Incubator"},
+    {slug: "mpast/mobileAudit", status: "Incubator"},
+    {slug: "nahsra/antisamy", status: "Lab"},
+    {slug: "OWASP-Benchmark/BenchmarkJava", status: "Lab"},
+    {slug: "OWASP/Amass", status: "Flagship"},
+    {slug: "OWASP/API-Security", status: "Lab"},
+    {slug: "owasp/asvs", status: "Flagship"},
+    {slug: "OWASP/BLT", status: "Incubator"},
+    {slug: "OWASP/CheatSheetSeries", status: "Flagship"},
+    {slug: "OWASP/cornucopia", status: "Lab"},
+    {slug: "OWASP/DevSecOpsGuideline", status: "Incubator"},
+    {slug: "OWASP/Docker-Security", status: "Incubator"},
+    {slug: "OWASP/Go-SCP", status: "Incubator"},
+    {slug: "OWASP/Honeypot-Project", status: "Incubator"},
+    {slug: "OWASP/Intelligent-Intrusion-Detection-System", status: "Incubator"},
+    {slug: "OWASP/IoT-Security-Verification-Standard-ISVS", status: "Incubator"},
+    {slug: "OWASP/java-html-sanitizer", status: "Lab"},
+    {slug: "OWASP/Nettacker", status: "Incubator"},
+    {slug: "OWASP/O-Saft", status: "Incubator"},
+    {slug: "OWASP/owasp-mastg", status: "Flagship"},
+    {slug: "OWASP/OWASP-VWAD", status: "Lab"},
+    {slug: "OWASP/railsgoat", status: "Lab"},
+    {slug: "OWASP/RiskAssessmentFramework", status: "Incubator"},
+    {slug: "OWASP/SAMM", status: "Flagship"},
+    {slug: "OWASP/SecureTea-Project", status: "Lab"},
+    {slug: "OWASP/security-culture", status: "Incubator"},
+    {slug: "OWASP/SecurityShepherd", status: "Flagship"},
+    {slug: "OWASP/Serverless-Top-10-Project", status: "Incubator"},
+    {slug: "OWASP/Software-Component-Verification-Standard", status: "Lab"},
+    {slug: "OWASP/SSO_Project", status: "Incubator"},
+    {slug: "OWASP/threat-model-cookbook", status: "Incubator"},
+    {slug: "OWASP/threat-modeling-playbook", status: "Incubator"},
+    {slug: "OWASP/Top10", status: "Flagship"},
+    {slug: "OWASP/wstg", status: "Flagship"},
+    {slug: "OWASP/www-project-appsec-pipeline", status: "Incubator"},
+    {slug: "OWASP/www-project-automated-threats-to-web-applications", status: "Lab"},
+    {slug: "OWASP/www-project-cloud-native-application-security-top-10", status: "Incubator"},
+    {slug: "OWASP/www-project-csrfguard", status: "Flagship"},
+    {slug: "OWASP/www-project-proactive-controls", status: "Lab"},
+    {slug: "OWASP/www-project-secure-headers", status: "Lab"},
+    {slug: "OWASP/www-project-security-qualitative-metrics", status: "Incubator"},
+    {slug: "OWASP/www-project-threat-and-safeguard-matrix", status: "Incubator"},
+    {slug: "OWASP/www-project-top-10-low-code-no-code-security-risks", status: "Incubator"},
+    {slug: "OWASP/www-project-winfim.net", status: "Incubator"},
+    {slug: "owlcs/owlapi", status: "Incubator"},
+    {slug: "owtf/owtf", status: "Flagship"},
+    {slug: "saeeddhqan/maryam", status: "Incubator"},
+    {slug: "secureCodeBox/secureCodeBox", status: "Lab"},
+    {slug: "SecurityRAT/SecurityRAT", status: "Incubator"},
+    {slug: "ssrdio/SecureBank", status: "Incubator"},
+    {slug: "WebGoat/WebGoat", status: "Lab"},
+    {slug: "wurstbrot/security-pins", status: "Lab"},
+
+        ];
+
+        const projectsData = generateProjectData(projects);
+
+            $(document).ready(function() {
+                $.fn.dataTable.ext.order['dom-image'] = function(settings, col) {
+                    return this.api().column(col, { order: 'index' }).nodes().map(function(td, i) {
+                        return $('img', td).data('status');
+                    });
+                };
+        
+                $('#projects').DataTable({
+                    order: [[1, 'asc']],
+                    columnDefs: [
+                        { targets: 1, orderDataType: 'dom-image' }
+                    ],
+                    "data": projectsData,
+                    "pageLength": 100,
+                    "columns": [
+                        { "data": "repo_name" },
+                        { "data": "status" },
+                        { "data": "date_released" },
+                        { "data": "release_version" },
+                        { "data": "last_commit" },
+                        { "data": "committers" },
+                        { "data": "stars" },
+                        { "data": "top_language" },
+                        { "data": "license" },
+                        { "data": "forks" },
+                        { "data": "prs" },
+                        { "data": "issues" },
+                    ]
+                });
+
+
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+name: Fetch Repository Status
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # You can adjust the schedule as needed. This one runs daily at midnight.
+
+jobs:
+  fetch-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch repository status
+        run: python .github/scripts/fetch_repo_status.py
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add repo_status.json
+          git commit -m "Update repository status" || echo "No changes to commit"
+          git push
