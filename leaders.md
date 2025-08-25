@@ -9,6 +9,7 @@
 * [Michael Bargury](mailto:michael.bargury@owasp.org)
 * [Jim Manico](mailto:jim.manico@owasp.org)
 
-**Staff Contact**
-* [Starr Brown](mailto:starr.brown@owasp.com)
+**Liaisons**
+* [Starr Brown](mailto:starr.brown@owasp.com) - Staff
+* [Steve Springett](mailto:steve.springett@owasp.org) - Global Board 
 
