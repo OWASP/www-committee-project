@@ -11,8 +11,7 @@ tags: project-committee
 
 The Project Committee is responsible for the **Project Promotion
 Process** which allows projects to progress through the maturity
-lifecycle defined in the
-[Project Leader Handbook](https://owasp.org/www-pdf-archive/PROJECT_LEADER-HANDBOOK_2014.pdf).
+lifecycle.
 
 <p>
     <span class="fa-stack fa-2x">
@@ -35,12 +34,12 @@ lifecycle defined in the
 
 ### Requesting Promotion
 
-As a project leader you can request a promotion to the next level via
-<https://forms.gle/Gh2Ry3vUjahu73S3A>.
+As a project leader you can request a promotion to the next level via [the official Project Promotion Application form](https://owasporg.atlassian.net/servicedesk/customer/portal/43/group/55/create/242).
+
+> Please do not use the previously offered Google form any more, as this is not monitored and might lead to lost requests.
 
 **Please expect a review time of 4-8 weeks!** If this timespan is
-significantly exceeded, please feel free to ask for an update via the
-Project Committee email or Slack channel!
+significantly exceeded, please feel free to ask for an update via the Project Committee email or Slack channel!
 
 ### Maturity Levels
 
