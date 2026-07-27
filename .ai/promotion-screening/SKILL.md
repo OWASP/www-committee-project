@@ -16,6 +16,12 @@ Use this skill when you are asked to review a project promotion application, pro
     *   **OSSF Best Practices Badge**: Verify the current status (registered/passing).
     *   **Slack Channel** (`#project-<name>`): Confirm existence and activity level.
     *   **Social Media accounts**: Check for vendor neutrality and branding.
+*   **AI/Boilerplate Scrutiny**: Look for signs of "hallucinated depth" or excessive AI-generated boilerplate:
+    - High ratio of verbose documentation/buzzwords to actual functional code.
+    - Use of non-standard, complex-sounding security jargon (e.g., "Communication Integrity Layer", "Entropy Phase Analysis").
+    - Overly formal or repetitive language common in LLM outputs.
+    - Claims of guidance or endorsement from prominent figures that seem exaggerated or unverified.
+    - Core logic that is trivial or relies on "Security by Obscurity" despite the sophisticated framing.
 
 ### 2. Matching Against Maturity Levels (`tab_promotions.md`)
 Evaluate the project against the requirements for the **requested** maturity level.
