@@ -1,3 +1,8 @@
-remote_theme: "owasp/www--site-theme@main"
-plugins:
- - jekyll-include-cache-0.2.0
+# This site now only redirects to https://owasp.org/groups/project-committee.
+# The legacy content is kept in the repo for history but no longer published.
+exclude:
+  - "*.md"
+  - handbook
+  - _includes
+  - Gemfile
+  - Gemfile.lock
