@@ -58,7 +58,7 @@ Once a new project has been accepted, a repository will be created for the proje
 - leaders.md
 - tab_example.md
 
-The contents of these files and explanations to what they affect as well as information on local editing of these files can be found at [Website Migration Information and Tutorial](https://owasp.org/migration/)
+The contents of these files and explanations to what they affect as well as information on local editing of these files can be found at [project page template](https://github.com/OWASP/www-project-template)
 
 In addition to these files, projects should also include:
 - LICENSE.md : indicating the license under which the project operates
@@ -66,10 +66,10 @@ In addition to these files, projects should also include:
 - README.md : a quick description that someone perusing the github repository (instead of the webpage) would see
 
 ### Leadership
-Projects can add leaders (up to a maximum as defined in the [Project Policy](https://owasp.org/www-policy/operational/projects) by editing the leaders.md file and adding a name with email address to the list. The person will be officially added, provided no formatting issues with the file, within 24 hours. Similarly, leaders can be changed or removed through editing the leaders.md file.
+Projects can add leaders (up to a maximum as defined in the [Project Policy](https://policy.owasp.org/operational/projects) by editing the leaders.md file and adding a name with email address to the list. The person will be officially added, provided no formatting issues with the file, within 24 hours. Similarly, leaders can be changed or removed through editing the leaders.md file.
 
 ### Applying for Promotion
-When a project wishes to be promoted from one level to the next, the project leaders should review the information from the Project Committee on [Promotions](https://owasp.org/www-committee-project/#div-promotions). Be sure to consider all aspects related to the level **the project wishes to acquire**. When ready for promotion, use the form or method indicated on the Project Committee [Promotions](https://owasp.org/www-committee-project/#div-promotions) page.
+When a project wishes to be promoted from one level to the next, the project leaders should review the information from the Project Committee on [Promotions](https://owasp.org/groups/project-committee?tab=promotions). Be sure to consider all aspects related to the level **the project wishes to acquire**. When ready for promotion, use the form or method indicated on the Project Committee [Promotions](https://owasp.org/groups/project-committee?tab=promotions) page.
 
 ### Retiring the Project
 Projects at OWASP might be retired for several reasons. Among the reasons include abandonment of the project by the project leaders, a lack of interest in the topic, and a natural progression of the project where the topic has been overcome by time or events. Projects that have not had any activity after a number of years may be archived and removed from the OWASP Project Inventory. 

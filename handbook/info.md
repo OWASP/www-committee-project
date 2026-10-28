@@ -1,4 +1,4 @@
-[Back to Project Committee](/www-committee-project/)
+[Back to Project Committee](https://owasp.org/groups/project-committee)
 
 ### [Project Handbook]({{site.baseurl}}/handbook/)
 
