@@ -8,7 +8,7 @@ Good OWASP Projects...
 * **Vendor Neutrality**
 1. ...avoid names that are easily confused with existing organizations or their (commercial) services.
 2. ...are truly free and Open Source and do not hide certain features behind any kind of paywall.
-3. ...adhere to the ["Recognizing Supporters"](https://owasp.org/www-policy/operational/donations#recognizing-supporters) section of the [Donations Policy](https://owasp.org/www-policy/operational/donations) when referring to supporting individuals or organizations.
+3. ...adhere to the ["Recognizing Supporters"](https://policy.owasp.org/operational/donations#recognizing-supporters) section of the [Donations Policy](https://policy.owasp.org/operational/donations) when referring to supporting individuals or organizations.
 4. ...have their own social media presence (e.g. Twitter handle, YouTube channel) and do not "piggy-back" on ones used for commercial purposes.
 5. ...have multiple Project Leaders who are not all employed by the same company.
 

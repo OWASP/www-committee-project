@@ -1,8 +1,15 @@
-# This site now only redirects to https://owasp.org/groups/project-committee.
-# The legacy content is kept in the repo for history but no longer published.
+# The site root redirects to https://owasp.org/groups/project-committee.
+# Only the Project Handbook (handbook/) is still published here.
+# The other legacy content is kept in the repo for history.
 exclude:
-  - "*.md"
-  - handbook
-  - _includes
+  - info.md
+  - leaders.md
+  - project-funding.md
+  - projects_seeking_funding.md
+  - tab_meetings.md
+  - tab_practice.md
+  - tab_promotions.md
+  - tab_resources.md
+  - handbook/info.md
   - Gemfile
   - Gemfile.lock

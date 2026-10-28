@@ -1,6 +1,6 @@
 ## Creating a Project
 
-Prior to creating a project, potential leaders should familiarize themselves with the current [project policy](https://owasp.org/www-policy/operational/projects). The project policy details the operational requirements and expectations for OWASP projects. To start a new project or re-open an archived project, please see the [New Project Request](https://owasporg.atlassian.net/servicedesk/customer/portal/7/group/18/create/70). Considering that projects require review and investigation and, occasionally, discussion in committee,
+Prior to creating a project, potential leaders should familiarize themselves with the current [project policy](https://policy.owasp.org/operational/projects). The project policy details the operational requirements and expectations for OWASP projects. To start a new project or re-open an archived project, please see the [New Project Request](https://owasporg.atlassian.net/servicedesk/customer/portal/7/group/18/create/70). Considering that projects require review and investigation and, occasionally, discussion in committee,
 new project requests can take some time to resolve.
 
 ## The New Project Request
@@ -20,4 +20,4 @@ Have a good idea of what your project is meant to address, including a short sum
 A project should choose an [OSI approved license](https://opensource.org/licenses/) or, in the case of documentation projects, the [Creative Commons BY-SA](https://creativecommons.org/licenses/) license is recommended.
 
 ### Good Practices
-Finally, you should make sure you review and understand the Project Committee's recommendations for [Project Good Practices](https://owasp.org/www-committee-project/#div-practice). These include reviewing current projects to determine if your project overlaps with existing projects, guidelines on vendor neutrality, and other topics.
+Finally, you should make sure you review and understand the Project Committee's recommendations for [Project Good Practices](https://owasp.org/groups/project-committee?tab=good-practices). These include reviewing current projects to determine if your project overlaps with existing projects, guidelines on vendor neutrality, and other topics.
